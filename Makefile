@@ -8,10 +8,10 @@ SP = 4
 DEPS = cowboy grpc_lib
 # Use the cowboy version that has support for trailers.
 dep_cowboy_commit = master
-dep_grpc_lib = git https://github.com/Bluehouse-Technology/grpc_lib
+dep_grpc_lib = git https://github.com/onnet/grpc_lib
 
 TEST_DEPS = grpc_client
-dep_grpc_client = git https://github.com/Bluehouse-Technology/grpc_client
+dep_grpc_client = git https://github.com/onnet/grpc_client
 
 include erlang.mk
 
